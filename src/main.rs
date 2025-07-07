@@ -122,6 +122,6 @@ async fn index_websites() {
 
 #[tokio::main]
 async fn main() {
-    //crawl_websites().await;
+    crawl_websites().await;
     index_websites().await;
 }
